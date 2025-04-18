@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/PSV.svg",
     place: "Physical Security Village",
     time: "(Jul, 2022 - Present)",
-    desp: "<li>Assembled and supervised teams of 50+ volunteers for RSA, DEF CON, CypherCon, and Ekoparty Cybersecurity Conferences</li><li>Established and maintained conference participation for the RSA, DEF CON, and Ekoparty events, attracting 300 – 10,000 participants in village</li><li>Led and organized a cross-functional team using Trello boards to develop a sponsorship package, find and cold-email potential sponsors, and maintain operations of an online shop, including inventory management, advertising, and website maintenance</li><li>Installed and administated an Odoo and Google Workspace systems to allow for employee and expense management</li>",
+    desp: "<li>Lead and manage a physical security non-profit with a core team of 10, overseeing key departments including marketing, tech, compliance, and operations.</li><li>Coordinate and organize participation for the RSA, DEF CON, Cyphercon and Ekoparty conferences (300 - 10,000 participants per conference), and overseeing volunteer teams with up to 30+ people</li><li>Led and organized a cross-functional team with a budget of $10,000 using Kanban methodologies, utilizing Trello boards to develop a sponsorship package, find and cold-email potential sponsors, and maintain operations of a shop that generates $40,000 in annual revenue</li>",
   },
   {
     title: "Web Developer/Systems Admin",
