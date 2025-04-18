@@ -24,3 +24,4 @@ jobs:
             cd /srv/www/html &&
             git pull origin main &&
             echo 'Deployment complete!'
+          "
