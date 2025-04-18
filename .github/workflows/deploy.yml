@@ -1,4 +1,4 @@
-name: AStar Deployment Workflow
+name: Portfolio Deployment Workflow
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: SSH Deploy
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
+          host: https://www.terryluan.com
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
