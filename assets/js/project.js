@@ -12,13 +12,13 @@ const projects = [
     Previewlink: "https://terryluan.com/astar",
     Githublink: "https://github.com/terryluan12/AStar-Course-Chooser",
   },
-  {
-    title: "Dogan",
-    cardImage: "assets/images/project-page/minesweeper.jpg",
-    description: "A C++23 library replicating the Catan Board Game, intended to be deployed as a microservice",
-    Previewlink: "",
-    Githublink: "",
-  },
+  // {
+  //   title: "Dogan",
+  //   cardImage: "assets/images/project-page/minesweeper.jpg",
+  //   description: "A C++23 library replicating the Catan Board Game, intended to be deployed as a microservice",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
   {
     title: "Mini C Compiler",
     cardImage: "assets/images/project-page/MiniCCompiler.png",
