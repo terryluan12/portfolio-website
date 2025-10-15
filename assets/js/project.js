@@ -5,6 +5,13 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
+   {
+    title: "Omiver",
+    cardImage: "assets/images/project-page/Omiver.svg",
+    description: "A demo website created for Omiver, a health tech startup. Built using Django, and HTMX",
+    Previewlink: "http://projects.terryluan.com/omiver",
+    Githublink: "https://github.com/terryluan12/Omiver-Website",
+  },
   {
     title: "A Star Chooser",
     cardImage: "assets/images/project-page/AStarChooser.png",
