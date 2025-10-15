@@ -8,7 +8,7 @@ const projects = [
    {
     title: "Omiver",
     cardImage: "assets/images/project-page/Omiver.svg",
-    description: "A demo website created for Omiver, a health tech startup. Built using Django, and HTMX",
+    description: "A demo website created for Omiver, a health tech startup. Built using Django, and HTMX.\nCredentials are username: user, password: omiver_password",
     Previewlink: "http://projects.terryluan.com/omiver",
     Githublink: "https://github.com/terryluan12/Omiver-Website",
   },
@@ -84,7 +84,7 @@ const projects = [
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
-  projects.forEach(({ title, cardImage, Previewlink, Githublink }) => {
+  projects.forEach(({ title, description, cardImage, Previewlink, Githublink }) => {
     output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
@@ -94,6 +94,7 @@ const showCards = () => {
               <div class="content">
               <div class="title-div">
                 <h1 class="title"><a href="#">${title}</a></h1>
+                <p class="description">${description}</p>
                 </div>
             <ul class="menu-content"><br>`
     if (Previewlink) {

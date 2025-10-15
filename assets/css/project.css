@@ -231,6 +231,10 @@ a:hover {
   font-size: 0.65em;
 }
 
+.card .description {
+  font-size: 0.5em;
+}
+
 @media (min-width: 411px) {
   .card .title {
     font-size: 0.8em;
