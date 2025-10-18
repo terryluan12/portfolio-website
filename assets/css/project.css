@@ -233,6 +233,8 @@ a:hover {
 
 .card .description {
   font-size: 0.5em;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 @media (min-width: 411px) {
@@ -359,6 +361,16 @@ input[type="text"] {
   opacity: 0;
 }
 
+.outer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-wrapper .icons {
+  display: flex;
+  margin-top: -2em;
+  justify-content: center;
+}
 .skill-card .data {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.55);
